@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PowrTuner — Digital Horsepower</title>
+<meta name="description" content="DHP's PowrTuner, completely re-engineered — a GM programming and diagnostics tool that's no longer limited to engine tuning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Expanded:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Digital Horsepower home">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect x="6.5" y="6.5" width="19" height="19" rx="2.5" stroke="currentColor" stroke-width="1.6"/>
+        <rect x="11.5" y="11.5" width="9" height="9" rx="1" fill="currentColor"/>
+        <path d="M16 2.5v4M16 25.5v4M2.5 16h4M25.5 16h4M9 2.5v4M23 2.5v4M9 25.5v4M23 25.5v4M2.5 9h4M2.5 23h4M25.5 9h4M25.5 23h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">DIGITAL <span>HORSEPOWER</span><span class="brand-sub">Remanufactured GM Modules</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-menu">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <nav aria-label="Primary">
+      <ul class="menu" id="primary-menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="has-sub is-current">
+          <a href="products.html" aria-haspopup="true">Products</a>
+          <ul class="submenu">
+            <li><a href="product-xlr-folding-top-module.html">XLR Folding Top Control Module
+              <span class="sub-tag">2004–2009 Cadillac XLR · FTC</span></a></li>
+            <li><a href="product-powrtuner.html">PowrTuner
+              <span class="sub-tag">Re-engineered GM programming tool</span></a></li>
+            <li><a href="product-kepler.html">Kepler Interface
+              <span class="sub-tag">J2534 · standalone diagnostics</span></a></li>
+          </ul>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="detail-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="products.html">Products</a> / <span>PowrTuner</span></p>
+    <div class="detail-grid">
+      <div class="detail-visual" style="display:flex; align-items:center; justify-content:center; background:var(--graphite-800);">
+        <svg class="module-glyph" viewBox="0 0 96 96" fill="none" aria-hidden="true" style="width:160px;height:160px;">
+          <path d="M24 16v64M48 16v64M72 16v64" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+          <rect x="16" y="34" width="16" height="15" rx="2.5" fill="currentColor"/>
+          <rect x="40" y="54" width="16" height="15" rx="2.5" fill="currentColor"/>
+          <rect x="64" y="26" width="16" height="15" rx="2.5" fill="currentColor"/>
+        </svg>
+        <!-- TODO: drop in a product photo when ready: <img src="assets/powrtuner.jpg" alt="PowrTuner"> -->
+      </div>
+      <div>
+        <p class="eyebrow">GM programming tool · re-engineered <span class="badge-new">v2</span></p>
+        <h1 style="color:#fff;">PowrTuner</h1>
+        <p class="lead" style="margin-top:16px;">PowrTuner was DHP's GM programming package long before this — and it's back, rebuilt from the ground up. The big change: it's no longer just for tuning engines. The same tool now reads, writes, and diagnoses across more of the vehicle.</p>
+        <div class="plate" style="margin-top:26px;">
+          <div class="plate-head"><span>Spec plate</span><span class="dot"></span></div>
+          <div class="plate-body">
+            <ul class="spec">
+              <li><span class="k">Type</span><span class="v">GM read / write / diagnostics</span></li>
+              <li><span class="k">Heritage</span><span class="v">DHP PowrTuner, re-engineered</span></li>
+              <li><span class="k">Scope</span><span class="v">No longer engine-only</span></li>
+              <li><span class="k">Pairs with</span><span class="v">DHP Kepler interface</span></li>
+              <li><span class="k">Availability</span><span class="v avail">In development · beta testers wanted</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-actions" style="margin-top:24px;">
+          <a class="btn btn--primary" href="contact.html">Become a beta tester</a>
+          <a class="btn btn--ghost" href="product-kepler.html">See the Kepler interface</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="detail-grid">
+      <div class="prose">
+        <h2>Completely re-engineered</h2>
+        <p>The original PowrTuner earned a loyal following in the GM V6 community, but it was built around aging software and a third-party interface box that's no longer practical to depend on. The new PowrTuner is a fresh build: modern software paired with DHP's own Kepler interface, so the whole tool is something we control and can keep current.</p>
+        <div class="callout">
+          <strong>What's different this time</strong>
+          It's not just engine tuning anymore. PowrTuner has grown into a broader read/write and diagnostics tool for GM vehicles — useful for keeping an older car healthy, not only chasing more power.
+        </div>
+
+        <h2>What it's for</h2>
+        <ul>
+          <li>Reading and writing GM control programming, the way the original did — but on hardware we maintain.</li>
+          <li>Diagnostics and data logging to help track down faults and keep older vehicles running right.</li>
+          <li>Performance calibration work for the enthusiasts who knew PowrTuner the first time around.</li>
+        </ul>
+
+        <h2>Where it stands</h2>
+        <p>This one is actively in development, and the exact feature set is still being finalized. If you'd like to help shape it — or you're a former PowrTuner user who wants first crack at the new version — we'd love to hear from you.</p>
+      </div>
+
+      <aside>
+        <div class="plate">
+          <div class="plate-head"><span>Want in early?</span><span class="dot"></span></div>
+          <div class="plate-body">
+            <p style="color:var(--steel-300); font-size:0.95rem; margin:0 0 14px;">We're signing up beta testers for the re-engineered PowrTuner. Tell us what GM vehicles you work on and what you'd want it to do.</p>
+            <a class="btn btn--dark" href="contact.html" style="width:100%; justify-content:center;">Contact us</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="brand" style="cursor:default;">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true" style="width:26px;height:26px;"><rect x="6.5" y="6.5" width="19" height="19" rx="2.5" stroke="currentColor" stroke-width="1.6"/><rect x="11.5" y="11.5" width="9" height="9" rx="1" fill="currentColor"/></svg>
+        <span class="brand-name">DIGITAL <span>HORSEPOWER</span></span>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="index.html">Home</a><a href="products.html">Products</a><a href="product-xlr-folding-top-module.html">XLR FTC Module</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Digital Horsepower Inc. · Remanufactured GM control modules.</span>
+      <span>Not affiliated with or endorsed by General Motors. XLR &amp; Cadillac are GM trademarks, used for fitment reference only.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/nav.js"></script>
+</body>
+</html>
